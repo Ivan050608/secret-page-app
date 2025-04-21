@@ -16,7 +16,7 @@ export default function RegisterPage() {
     if (error) {
       setError(error.message);
     } else {
-      router.push('/secret-page-1'); // or maybe /login if you require email confirmation
+      router.push('/secret-page-1'); 
     }
   };
 
